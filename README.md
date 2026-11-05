@@ -81,6 +81,7 @@ The resulting discriminative components are called **Fisherfaces**.
 | Sensitivity | Sensitive to lighting and global variation | Can reduce some lighting-related effects |
 | Dataset requirement | Consistent images | Correct labels and multiple samples per class |
 | Best use | Compact feature representation | Identity-focused class separation |
+
 The comparison is meaningful only when both methods use the same image preprocessing, training identities, test identities, and evaluation procedure.
 ## Dataset
 The project is intended to be evaluated with the **AT&T Database of Faces**.
@@ -114,18 +115,18 @@ images belong to the same class.
 An equivalent directory layout may be used, but the identity labels must remain
 unambiguous:
 ```text
-dataset/
-├── subject_01/
-│   ├── image_01.pgm
-│   ├── image_02.pgm
+archive(2)/
+├── s1/
+│   ├── 1.pgm
+│   ├── 2.pgm
 │   └── ...
-├── subject_02/
-│   ├── image_01.pgm
-│   ├── image_02.pgm
+├── s2/
+│   ├── 1.pgm
+│   ├── 2.pgm
 │   └── ...
-└── subject_03/
-    ├── image_01.pgm
-    ├── image_02.pgm
+└── s3/
+    ├── 1.pgm
+    ├── 2.pgm
     └── ...
 ```
 The folder name or another explicit label should identify the person. Do not
