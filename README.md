@@ -92,6 +92,7 @@ recognition is evaluated. For example, some images from every subject can be
 used for training and the remaining images can be reserved for testing. The
 same split must be used for both Eigenfaces and Fisherfaces so that the
 comparison is fair.
+**Note:** The original `.pgm` dataset files were converted to `.png` format to make the images easily accessible and compatible with standard viewers.
 ### Dataset preparation requirements
 Before using any other dataset, make sure that it is structured specifically
 for this type of experiment:
