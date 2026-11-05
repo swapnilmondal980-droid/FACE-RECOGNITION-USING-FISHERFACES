@@ -91,7 +91,7 @@ The dataset must be divided into training and testing images before
 recognition is evaluated. For example, some images from every subject can be
 used for training and the remaining images can be reserved for testing. The
 same split must be used for both Eigenfaces and Fisherfaces so that the
-comparison is fair.
+comparison is fair.<br>
 **Note:** The original `.pgm` dataset files were converted to `.png` format to make the images easily accessible and compatible with standard viewers.
 ### Dataset preparation requirements
 Before using any other dataset, make sure that it is structured specifically
@@ -130,8 +130,8 @@ dataset/
     ├── 2.png
     └── ...
 ```
-The folder name or another explicit label should identify the person. Do not
-rely on an arbitrary file order to infer identity.
+<br>
+ **Reproducibility Note:** Please update the dataset paths in the notebook according to your local system or execution environment before running the code. Ensure all required dependencies are installed.
 ## Image preprocessing
 Classical subspace methods require comparable input images. A typical
 preprocessing pipeline is:
