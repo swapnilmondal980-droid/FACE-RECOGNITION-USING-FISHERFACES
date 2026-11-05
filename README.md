@@ -81,8 +81,7 @@ The resulting discriminative components are called **Fisherfaces**.
 | Sensitivity | Sensitive to lighting and global variation | Can reduce some lighting-related effects |
 | Dataset requirement | Consistent images | Correct labels and multiple samples per class |
 | Best use | Compact feature representation | Identity-focused class separation |
-The comparison is meaningful only when both methods use the same image
-preprocessing, training identities, test identities, and evaluation procedure.
+The comparison is meaningful only when both methods use the same image preprocessing, training identities, test identities, and evaluation procedure.
 ## Dataset
 The project is intended to be evaluated with the **AT&T Database of Faces**.
 The dataset contains grayscale images grouped by subject. Each subject has
