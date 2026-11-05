@@ -115,18 +115,18 @@ images belong to the same class.
 An equivalent directory layout may be used, but the identity labels must remain
 unambiguous:
 ```text
-archive(2)/
+dataset/
 ├── s1/
-│   ├── 1.pgm
-│   ├── 2.pgm
+│   ├── 1.png
+│   ├── 2.png
 │   └── ...
 ├── s2/
-│   ├── 1.pgm
-│   ├── 2.pgm
+│   ├── 1.png
+│   ├── 2.png
 │   └── ...
 └── s3/
-    ├── 1.pgm
-    ├── 2.pgm
+    ├── 1.png
+    ├── 2.png
     └── ...
 ```
 The folder name or another explicit label should identify the person. Do not
